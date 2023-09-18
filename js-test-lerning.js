@@ -6,8 +6,9 @@
 
 
 
-// Writing automated tests takes time, but the cost is outweighed by the benefits. Automated testing
+// Writing automated tests takes time, but the cost is outweighed by the benefits. 
 
+// -----  Automated testing:
 // Increases confidence that your product works as expected (compared to manual testing)
 // Improves upon documentation
 // Reduces the likelihood of regression
