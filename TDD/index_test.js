@@ -27,5 +27,23 @@ describe('Calculate', () => {
       // Verification
       assert.strictEqual(result, expectedResult);
     })
+
+    /// edge case
+    it('returns zero for an empty array', () => {
+        // setup 
+        const expectedResult = 0
+        const inputArray = []
+  
+        // exercise
+        const result = Calculate.sum(inputArray)
+  
+        // verification
+        assert.strictEqual(result, expectedResult)
+      })
   });
 });
+
+
+// ---------- Edge Case ---------- //
+
+// An edge case is a problem or situation that occurs only at an extreme (maximum or minimum) operating parameter — you can think of these as special cases that you need to account for.
